@@ -4,10 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dota2Helper", "Dota2Helper\Dota2Helper.csproj", "{4D4EC74A-98B6-42D9-A222-55472E5D8D97}"
+	ProjectSection(ProjectDependencies) = postProject
+		{01999366-BA74-4B2A-8007-9ED8B5BE6AB4} = {01999366-BA74-4B2A-8007-9ED8B5BE6AB4}
+		{99E99BF6-456A-4235-8E85-5DE4314834BC} = {99E99BF6-456A-4235-8E85-5DE4314834BC}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{99E99BF6-456A-4235-8E85-5DE4314834BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{01999366-BA74-4B2A-8007-9ED8B5BE6AB4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{99E99BF6-456A-4235-8E85-5DE4314834BC} = {99E99BF6-456A-4235-8E85-5DE4314834BC}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

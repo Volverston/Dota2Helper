@@ -10,27 +10,27 @@ namespace DAL
 {
     class HeroTypes : IHeroTypes
     {
-        public bool DeleteHeroType(int id)
+        public bool Delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public HeroType EditHeroType(HeroType heroType)
+        public HeroType Edit(int id)
         {
             throw new NotImplementedException();
         }
 
-        public List<HeroType> GetAllHeroTypes()
+        public List<HeroType> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public HeroType GetHeroTypeById(int id)
+        public HeroType GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void InsertHeroType()
+        public void Insert(HeroType item)
         {
             throw new NotImplementedException();
         }

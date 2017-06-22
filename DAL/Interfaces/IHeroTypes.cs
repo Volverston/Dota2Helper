@@ -7,12 +7,8 @@ using DAL.Entities;
 
 namespace DAL.Interfaces
 {
-    interface IHeroTypes
+    interface IHeroTypes : IBaseOperations<HeroType>
     {
-        void InsertHeroType();
-        bool DeleteHeroType(int id);
-        HeroType EditHeroType(HeroType heroType);
-        List<HeroType> GetAllHeroTypes();
-        HeroType GetHeroTypeById(int id);
+       
     }
 }

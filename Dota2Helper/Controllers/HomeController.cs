@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Dota2Helper.Models;
 
 namespace Dota2Helper.Controllers
 {
@@ -10,7 +11,9 @@ namespace Dota2Helper.Controllers
 	{
 		public ActionResult Index()
 		{
-			return View();
+            var model = new Hero();
+            var qwe = model.getAllHeroes();
+            return View();
 		}
 
 		public ActionResult About()

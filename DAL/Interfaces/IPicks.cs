@@ -7,12 +7,8 @@ using DAL.Entities;
 
 namespace DAL.Interfaces
 {
-    interface IPicks
+    interface IPicks : IBaseOperations<Pick>
     {
-        void InsertPick();
-        bool DeletePick(int id);
-        Pick EditPick(Pick pick);
-        List<Pick> GetAllPicks();
-        Pick GetPickById(int id);
+       
     }
 }

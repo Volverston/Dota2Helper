@@ -40,12 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Repositories\DALRepository.cs" />
     <Compile Include="Entities\Hero.cs" />
     <Compile Include="Entities\HeroType.cs" />
     <Compile Include="Entities\Pick.cs" />
     <Compile Include="Entities\Player.cs" />
+    <Compile Include="Helpers\DBHelper.cs" />
     <Compile Include="Heroes.cs" />
     <Compile Include="HeroTypes.cs" />
+    <Compile Include="Interfaces\IBaseOperations.cs" />
     <Compile Include="Interfaces\IHero.cs" />
     <Compile Include="Interfaces\IHeroTypes.cs" />
     <Compile Include="Interfaces\IPicks.cs" />

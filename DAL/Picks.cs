@@ -10,27 +10,27 @@ namespace DAL
 {
     class Picks : IPicks
     {
-        public bool DeletePick(int id)
+        public bool Delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Pick EditPick(Pick pick)
+        public Pick Edit(int id)
         {
             throw new NotImplementedException();
         }
 
-        public List<Pick> GetAllPicks()
+        public List<Pick> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Pick GetPickById(int id)
+        public Pick GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void InsertPick()
+        public void Insert(Pick item)
         {
             throw new NotImplementedException();
         }

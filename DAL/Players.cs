@@ -10,27 +10,27 @@ namespace DAL
 {
     class Players : IPlayers
     {
-        public bool DeleteHero(int id)
+        public bool Delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Player EditPlayer(Player player)
+        public Player Edit(int id)
         {
             throw new NotImplementedException();
         }
 
-        public List<Player> GetAllPlayers()
+        public List<Player> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Player GetPlayerById(int id)
+        public Player GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void InsertPlayer()
+        public void Insert(Player item)
         {
             throw new NotImplementedException();
         }

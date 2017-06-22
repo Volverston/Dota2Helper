@@ -7,12 +7,8 @@ using DAL.Entities;
 
 namespace DAL.Interfaces
 {
-    interface IPlayers
+    interface IPlayers : IBaseOperations<Player>
     {
-        void InsertPlayer();
-        bool DeleteHero(int id);
-        Player EditPlayer(Player player);
-        List<Player> GetAllPlayers();
-        Player GetPlayerById(int id);
+      
     }
 }
